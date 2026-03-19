@@ -2,28 +2,39 @@
 title: Report
 ---
 
-TODO: Write your report in this `report.qmd` file using markdown syntax.
+: Write your report in this `report.qmd` file using markdown syntax.
 
 ## What this was lab about
 
-TODO: Briefly summarize what this lab was about and what you did at a high level.
+: Briefly summarize what this lab was about and what you did at a high level.
+This lab focused on collecting and exploring two kinds of data: survey data and web analytics data. The goal was to gather both datasets, load them into Python, and do basic exploration so they could be included in the course website and notebook. At a high level, we worked specifically with the data_analytics.csv and data_survey.csv files. We created pandas DataFrames from both files, checked their structure, and used the actual column names from each dataset. For the analytics data, we explored part of the web usage data by plotting values such as active users by city. For the survey data, we explored the responses by creating a visualization of the survey results, such as the distribution of preferences. Overall, this part of the lab was about loading real CSV data, inspecting it, and creating simple plots to summarize what the data showed.
 
 ## Methods
 
-TODO: Briefly talk about the methods you used to gather the data and any specific functions that helped reveal the patterns.
+: Briefly talk about the methods you used to gather the data and any specific functions that helped reveal the patterns.
+
+The data was gathered in two different ways. The survey data was collected through a Google Form, and the responses were downloaded as a CSV file named data_survey.csv. The web analytics data was gathered from Google Analytics and downloaded as another CSV file named data_analytics.csv. These two files were then loaded into Python in Google Colab so they could be explored and visualized. To reveal patterns in the data, I used pandas functions such as pd.read_csv() to load the files, .head() to preview the first few rows, and .shape to inspect the size of each DataFrame. For plotting and exploration, I used matplotlib functions such as plt.figure(), plt.bar(), plt.title(), plt.xlabel(), plt.ylabel(), plt.ylim(), and plt.show(). These functions helped show patterns like differences in active users across cities in the analytics data and differences in survey preferences in the survey data.
 
 ## Findings
 
-TODO: Briefly restate what you found out about your classmates by exploring the data. 
+: Briefly restate what you found out about your classmates by exploring the data. 
 
-TODO: Briefly restate what your found out about your site usage by exploring the Google Analytics Data.
+By exploring the survey data, I found that my classmates had different personal preferences, such as whether they preferred dogs or cats and chocolate or vanilla ice cream. The data showed how many students selected each option, which made it possible to see the overall trends in the class responses. The survey revealed that classmates did not all choose the same answers, so the responses showed a mix of preferences rather than complete agreement. Creating plots from the survey data made those patterns easier to see by summarizing the choices across all responses.
+
+: Briefly restate what your found out about your site usage by exploring the Google Analytics Data.
 
 Please refer to the figures you made in the notebook by title. For example, "As shown in figure 1..."
 
+As shown in Figure 1: Active Users by City, the Google Analytics data showed that site usage came from multiple locations rather than from just one place. The highest number of active users came from Meadville, while smaller numbers of users came from cities such as San Jose, New York, Council Bluffs, and Jakarta. This suggests that the site was accessed most heavily from Meadville, but it also reached users in several other cities. Overall, the analytics exploration showed that site activity was distributed across different locations, with one city standing out as the main source of traffic.
+
 ## Discussion
 
-TODO: Briefly mention how data gathering can help you answer specific questions.
+: Briefly mention how data gathering can help you answer specific questions.
+
+Data gathering helps answer specific questions by turning observations into evidence that can be analyzed. For example, survey data can help answer questions about what preferences people have, while Google Analytics data can help answer questions about who is visiting a site and where that activity is coming from. By collecting and exploring the data, it becomes easier to identify patterns, compare results, and support conclusions with actual information rather than guesses.
 
 ## Future directions
 
-TODO: Briefly state what could be explored within the data in the future, building on what you already did. Your answer must be something that you could actually do with the data, related to this lab.
+: Briefly state what could be explored within the data in the future, building on what you already did. Your answer must be something that you could actually do with the data, related to this lab.
+
+In the future, this data could be explored further by comparing which survey preferences were most common and by looking for additional patterns in the Google Analytics data, such as which pages received the most views or which locations had the most active users. Building on this lab, it would also be possible to compare multiple parts of the analytics file to better understand how people used the site and which parts of the site attracted the most attention.
