@@ -1,0 +1,86 @@
+# ----------------------------------------
+# Reports snapshot
+# Account: Shayan Colabawalla
+# Property: Shayan
+# ----------------------------------------
+#  
+# Start date: 20260219
+# End date: 20260318
+Active users,New users,Average engagement time per active user,Event count
+15,15,3.7333333333333334,85
+
+#  
+# Start date: 20260219
+# End date: 20260318
+Page title and screen class,Views,Active users,Event count,Bounce rate
+Data Analytics Lab – EXPLORER,21,15,64,0.5333333333333333
+Questionnaire – EXPLORER,10,6,21,0
+
+#  
+# Start date: 20260219
+# End date: 20260318
+First user source / medium,Active users
+(direct) / (none),13
+google / organic,2
+
+#  
+# Start date: 20260219
+# End date: 20260318
+Session source / medium,Sessions
+(direct) / (none),13
+google / organic,2
+
+#  
+# Start date: 20260219
+# End date: 20260318
+Nth day,new
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,0
+0023,0
+0024,0
+0025,0
+0026,14
+0027,1
+
+# How does activity on your platforms compare?
+# Start date: 20260219
+# End date: 20260318
+Platform,Key events
+
+
+#  
+# Start date: 20260219
+# End date: 20260318
+City,Active users
+Meadville,5
+San Jose,3
+New York,2
+Council Bluffs,1
+Jakarta,1
+
+#  
+# Start date: 20260219
+# End date: 20260318
+Audience name,Active users
+All Users,15
